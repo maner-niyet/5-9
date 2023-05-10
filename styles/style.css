@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --primary-color: #79589f;
+  --secondary-color: #6e5baa;
+  --dark-color: #260040;
+  --light-color: #f4f4f4;
+  --shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  --text-color: #333;
+  --succes-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+/* Showcase */
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+  transition: transform;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+    overflow: visible;
+}
+
+/* .showcase-text {
+    animation: slideInFromLeft 1s ease-in;
+} */
+
+.showcase-form {
+    /* animation: slideInFromRight 1s ease-in; */
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+}
+
+.showcase-form input[type="text"], 
+.showcase-form input[type="email"] {
+    border: 0;
+    border-bottom: 1px solid var(--dark-color);
+    width: 100%;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.form-control {
+    margin: 30px 0;
+}
+
+.showcase::before {
+  content: "";
+  height: 100px;
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  transform: skewY(-3deg);
+}
+
+/* stats */
+.stats {
+  padding-top: 100px;
+}
+
+/* Animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* flex-direction - row
+main-axis => x-axis
+cross-axis => y-axis
+
+flex-direction - column
+main-axis => y-axis
+cross-axis => x-axis
+
+justify-content always controls main-axis 
+aligh-atems always controls cross-axis
+
+so always check your flex-direction first!
+*/
