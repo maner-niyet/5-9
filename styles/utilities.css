@@ -49,5 +49,7 @@
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
 }
 
