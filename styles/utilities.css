@@ -59,4 +59,23 @@
   grid-row: 1 / 3;
 }
 
+section.cloud {
+  height: 350px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+.cloud .description {
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+}
+.mt-20 {
+  margin-top: 20px;
+}
 
