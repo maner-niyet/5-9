@@ -207,18 +207,13 @@ img {
 .languages{
   padding: 10px 0;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.languages .lang-heading{
-  text-align: center;
-  font-size: 22px;
-  font-weight: bolder;
-  margin: 0px 0 18px 0;
-}
+
 
 .languages .card{
-  height: 150px;
-  text-align: center;
+  height: 150px;  
 }
 
 .languages h3{
