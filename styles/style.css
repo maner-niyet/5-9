@@ -73,6 +73,8 @@ img {
 
 /* Showcase */
 .showcase {
+  justify-content: center;
+  align-items: center;
   height: 400px;
   background-color: var(--primary-color);
   color: #fff;
@@ -85,7 +87,7 @@ img {
 }
 
 .showcase .grid {
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     overflow: visible;
 }
@@ -172,31 +174,32 @@ img {
 
 /* Hosting */
 
-.hosting{
+.cloud{
   background-color: var(--primary-color);
   color: var(--light-color);
   padding: 20px 0;
 }
 
-.hosting .grid{
+.cloud .grid{
   grid-template-columns: 60% 40%;
 }
 
-.hosting h1{
+.cloud h1{
   font-size: 50px;
 }
 
-.hosting p{
+.cloud p{
   font-size: 20px;
 }
 
-.hosting .hosting-text{
+.cloud .cloud-text{
   text-align: center;
 }
 
-.hosting .btn{
+.cloud .btn{
   background-color: var(--dark-color);
   border: none;
+  margin-top: 10px;
 }
 
 /* Languages */
