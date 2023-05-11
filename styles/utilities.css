@@ -50,6 +50,13 @@
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
 }
-.cli 
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2; /* column start / column end*/
+  grid-row: 1 / 3;
+}
 
 
