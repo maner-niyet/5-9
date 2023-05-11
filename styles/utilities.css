@@ -79,3 +79,6 @@ section.cloud {
   margin-top: 20px;
 }
 
+.languages .grid {
+  grid-template-columns: repeat(7, 1fr);
+}
