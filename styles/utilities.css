@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .grid {
@@ -49,5 +50,14 @@
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
 }
+
+/* .usage .grid{
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2, 2fr);
+} */
+
+
 
