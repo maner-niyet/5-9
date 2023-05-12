@@ -214,6 +214,7 @@ img {
 
 .languages .card{
   height: 150px;  
+  transition: transform 0.2s ease-in;
 }
 
 .languages h3{
@@ -227,18 +228,18 @@ img {
   color: var(--light-color);
 }
 
-.footer .nav a{
+.footer a{
   color: var(--light-color);
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 .footer .fl{
-  flex: 1 100% ;
+  flex: 1 ;
 }
 
 .footer i{
   padding: 0 15px;
-}
+} 
 
 
 
