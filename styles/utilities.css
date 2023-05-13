@@ -51,9 +51,39 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.cli{
+.cli .grid{
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  }
+
+.cli .grid > *:first-child{
   grid-column: 1/ span 2;
   grid-row: 1/ 3;
 }
+
+.cloud{
+    height: 330px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: 20px;
+  }
+
+.img-cloud{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-size: 3rem;
+  }
+
+  .btn-outline-dark{
+    background-color: #260040;
+  }
+  .description{
+    text-align: center;
+  }
+
+
+    
+  
