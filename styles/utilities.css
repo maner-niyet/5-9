@@ -65,7 +65,9 @@
     height: 330px;
     background-color: var(--primary-color);
     color: #fff;
-}
+    margin-top: 20px;
+  }
+
 .img-cloud{
   width: 100%;
   height: 100%;
@@ -81,4 +83,7 @@ h1{
   .description{
     text-align: center;
   }
+
+
+    
   
